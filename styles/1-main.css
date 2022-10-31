@@ -35,14 +35,14 @@
     background-position-y: bottom; */
 }
 
-.box:nth-child(1)::before {
+/* .box:nth-child(1)::before {
     content: "";
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: var(--primary-ultra-light);
     border-radius: 14%;
-}
+} */
 
 /* .box:nth-child(1) span {
     position: absolute;

@@ -1,7 +1,8 @@
 :root {
     --primary: #4895eb;
     --primary-light: rgba(72, 149, 235, .1);
-    --primary-ultra-light: rgba(72, 149, 235, .02);
+    --primary-ultra-light: #F9FCFE;
+    /* --primary-ultra-light: rgba(72, 149, 235, .02); */
     /* --primary-light: #E5F4FD; */
     --card-shadow: 0 16px 88px rgb(128 145 154 / 16%);
     --section-title-fs: 24px;
@@ -61,6 +62,7 @@ h1 {
     font-weight: 800;
     font-family: "Inter Bold";
     margin-bottom: 14px;
+    text-shadow: 7px 6px 0px #849cb754;
 }
 
 .secondary {

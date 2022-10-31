@@ -72,6 +72,69 @@
           </div>
         </div>
       </section>
+      <section id="experiences" class="section experiences">
+        <h4 class="primary">Who I work with</h4>
+        <h4 class="primary">I worked with</h4>
+        <div class="experience_cards">
+          <div class="card">
+            <div class="head">
+              <img
+                class="person__company"
+                src="./assets/logos/company-5-logo.png"
+              />
+            </div>
+            <div class="body">
+              Android-based and Web-based Home Power Monitoring System
+              [Consumption Monitoring System (<b>CosMos</b>)] is genuinely
+              fitted for anyone who's taking the safeness of the house and for
+              does who is conscious to their electric consumption seriously
+              because of the electronic appliances used.
+            </div>
+            <div class="action">
+              <a
+                href="https://www.facebook.com/CosMos.UCC/?ref=py_c&__xts__"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="head">
+              <img
+                class="person__company"
+                src="./assets/logos/project-1-logo.png"
+              />
+            </div>
+            <div class="body">
+              <b>TRACKME</b> is designed to enhance the operational efficiency
+              of businesses through smart integration of location technology,
+              information, and services. With capabilities ranging from fleet
+              management to delivery monitoring that supports entire supply
+              chain and logistics processes.
+            </div>
+            <div class="action">
+              <a href="https://trackme.com.ph/" target="_blank">Visit</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="head">
+              <img
+                class="person__company"
+                src="./assets/logos/company-4-logo.png"
+              />
+            </div>
+            <div class="body">
+              Engage in gaming, recreation and leisure activities and operate
+              any entertainment center for games of chance commonly played in
+              casinos and any variations thereof both for foreign and domestic
+              markets.
+            </div>
+            <div class="action">
+              <a href="#">Visit</a>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="skills" class="section professional-skills">
         <p class="section-title">
           <!-- Here are some of my <br />professional skills 🤗 -->
@@ -122,20 +185,13 @@
           </div>
         </div>
       </section>
-      <!-- <section id="experiences" class="section experiences">
-        <h4 class="primary">Who I work with</h4>
-        <h4 class="primary">I worked with</h4>
-        <div class="cards__container">
-          <div class="card"></div>
-        </div>
-      </section> -->
       <section id="testimonials" class="section testimonials">
         <p class="section-title">Testimonials 👨‍👩‍👧‍👧</p>
         <div class="cards__container">
           <div class="card testimonial__card">
             <img
               class="person__company"
-              src="./assets/logos/person-1-logo.png"
+              src="./assets/logos/company-1-logo.png"
             />
             <img src="./assets/icons/icons8-quote-left-50.png" height="25px" />
             <p class="testemony">
@@ -148,7 +204,13 @@
             <div class="person__wrapper">
               <img class="person__image" src="./assets/persons/person-1.jpg" />
               <div class="person">
-                <p class="person__name">Sarah Jane Sanchez</p>
+                <p class="person__name">
+                  <a
+                    href="https://www.linkedin.com/in/sarah-jane-sanchez"
+                    target="_blank"
+                    >Sarah Jane Sanchez</a
+                  >
+                </p>
                 <p class="person__position">Supervisor, Frontend Development</p>
               </div>
             </div>
@@ -156,7 +218,7 @@
           <div class="card testimonial__card">
             <img
               class="person__company"
-              src="./assets/logos/person-2-logo.png"
+              src="./assets/logos/company-2-logo.png"
             />
             <img src="./assets/icons/icons8-quote-left-50.png" height="25px" />
             <p class="testemony">
@@ -168,7 +230,14 @@
             <div class="person__wrapper">
               <img class="person__image" src="./assets/persons/person-2.jpg" />
               <div class="person">
-                <p class="person__name">Glenmore Saga Ilagan</p>
+                <p class="person__name">
+                  <a
+                    href="https://www.linkedin.com/in/glenmoreilagan"
+                    target="_blank"
+                  >
+                    Glenmore Saga Ilagan
+                  </a>
+                </p>
                 <p class="person__position">Junior Web Developer</p>
               </div>
             </div>
@@ -176,7 +245,7 @@
           <div class="card testimonial__card">
             <img
               class="person__company"
-              src="./assets/logos/person-3-logo.png"
+              src="./assets/logos/company-3-logo.png"
             />
             <img src="./assets/icons/icons8-quote-left-50.png" height="25px" />
             <p class="testemony">
@@ -189,7 +258,14 @@
             <div class="person__wrapper">
               <img class="person__image" src="./assets/persons/person-3.jpg" />
               <div class="person">
-                <p class="person__name">Arvy Krizelle Zara</p>
+                <p class="person__name">
+                  <a
+                    href="https://www.linkedin.com/in/arvy-z-9a8112117"
+                    target="_blank"
+                  >
+                    Arvy Krizelle Zara
+                  </a>
+                </p>
                 <p class="person__position">UI/UX Designer</p>
               </div>
             </div>
@@ -210,7 +286,7 @@
   <script>
     window.addEventListener("DOMContentLoaded", (event) => {
       const el = document.querySelectorAll(".box")[0];
-      console.log(getComputedStyle(el))
+      console.log(getComputedStyle(el));
       el.addEventListener("mousemove", (e) => {
         el.style.backgroundPositionX = -e.offsetX / 5 + "px";
         el.style.backgroundPositionY = -e.offsetY / 5 + "px";
