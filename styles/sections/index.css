@@ -1,0 +1,25 @@
+/* Sections */
+section:not(:nth-child(3)) {
+    margin-top: 80px;
+}
+
+section {
+    position: relative;
+    padding: 24px;
+    /* margin-block: 24px; */
+    min-height: 450px;
+    min-height: 650px;
+    height: 100vh;
+    /* max-width: 80%; */
+    /* margin: auto; */
+    /* margin-block-end: var(--navigation-offset); */
+    /* scroll-snap-type: y mandatory */
+}
+
+.section-title {
+    line-height: 32px;
+    font-weight: 600;
+    font-size: var(--section-title-fs);
+    text-align: center;
+    margin-bottom: 40px;
+}

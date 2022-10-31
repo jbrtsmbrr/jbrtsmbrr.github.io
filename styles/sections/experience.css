@@ -1,0 +1,5 @@
+.experiences {
+    background-color: var(--primary-light);
+    box-shadow: 0 0 0 100vmax var(--primary-light);
+    clip-path: inset(0 -100vmax);
+}

@@ -1,0 +1,51 @@
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    gap: 250px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.logo {
+    font-family: Radon;
+    font-size: 1.5rem;
+    background-color: var(--primary);
+    color: white;
+    padding: 12px;
+}
+
+header .navigation {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.navigation ul li {
+    padding: 12px 24px;
+    list-style-type: none;
+    border-radius: 39px;
+    cursor: pointer;
+}
+
+.navigation ul li.active {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.navigation ul li:hover {
+    background-color: var(--primary-light);
+    color: var(--primary);
+}

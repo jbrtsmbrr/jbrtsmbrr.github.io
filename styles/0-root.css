@@ -1,0 +1,86 @@
+:root {
+    --primary: #4895eb;
+    --primary-light: rgba(72, 149, 235, .1);
+    --primary-ultra-light: rgba(72, 149, 235, .02);
+    /* --primary-light: #E5F4FD; */
+    --card-shadow: 0 16px 88px rgb(128 145 154 / 16%);
+    --section-title-fs: 24px;
+    --navigation-offset: 90px
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/inter.ttf);
+}
+
+@font-face {
+    font-family: "Inter Bold";
+    src: url(../assets/fonts/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Radon;
+    src: url("../assets/fonts/Radon\ Regular.ttf");
+}
+
+* {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.5px;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+}
+
+h6 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.primary {
+    line-height: 1.1;
+    font-weight: 800;
+    font-family: "Inter Bold";
+    margin-bottom: 14px;
+}
+
+.secondary {
+    font-family: Inter;
+    line-height: 2;
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* html */
+html {
+    scroll-behavior: smooth;
+}
+
+/* body */
+body {
+    overflow-x: hidden;
+}
